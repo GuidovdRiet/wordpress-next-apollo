@@ -1,0 +1,25 @@
+{
+  "name": "wordpress-next",
+  "version": "1.0.0",
+  "description": "wordpress next demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.1.14",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "isomorphic-unfetch": "^2.1.1",
+    "next": "^6.1.1",
+    "next-apollo": "^2.0.0",
+    "react": "^16.4.2",
+    "react-apollo": "^2.1.11",
+    "react-dom": "^16.4.2"
+  }
+}
